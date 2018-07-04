@@ -4,10 +4,10 @@
        xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
        xsi:schemaLocation="http://www.springframework.org/schema/beans        http://www.springframework.org/schema/beans/spring-beans.xsd        http://code.alibabatech.com/schema/dubbo        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-    <dubbo:application name="gpmall-sso" owner="mic"/>
+    <dubbo:application name="gpmall-sso" owner="lhf"/>
 
     <dubbo:registry protocol="zookeeper" group="dubbo-dev"
-                    address="192.168.11.156:2181"/>
+                    address="47.96.119.178:2181,47.96.119.178:2182,47.96.119.178:2183"/>
 
     <import resource="classpath*:client/user-reference.xml"/>
 

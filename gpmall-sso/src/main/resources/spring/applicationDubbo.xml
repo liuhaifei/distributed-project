@@ -7,7 +7,7 @@
     <dubbo:application name="gpmall-sso" owner="mic"/>
 
     <dubbo:registry protocol="zookeeper" group="dubbo-dev"
-                    address="192.168.11.156:2181"/>
+                    address="47.96.119.178:2181,47.96.119.178:2182,47.96.119.178:2183"/>
 
     <import resource="classpath*:client/user-reference.xml"/>
 
